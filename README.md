@@ -1,5 +1,5 @@
 # Fibonacci
-A simple Fibonacci calculator
+A simple Fibonacci calculator.
 
 I once got asked a question about creating a Fibonacci calculator in an interview. I don't think I gave 
 a very good answer, but it stuck with me enough that I decided to try my hand at it. The question was 
@@ -16,3 +16,8 @@ number in the sequence in just under a second, and the 100,000th number in just 
 think it's pretty good.
 
 Also: wow, these numbers get real big real fast.
+
+EDIT 14/10/22: I have written a Java version of the program. Taking advantage to the ability to peek at
+the top of the queue appears to have improved efficiency somewhat, with this version finding the 100,000th
+number in 0.226 seconds. I think the challenge from here is to improve memory usage, given how large these
+numbers get.
